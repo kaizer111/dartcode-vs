@@ -26,8 +26,7 @@ void main()
   map3.putIfAbsent('bishwajeet', () => 7);
   print(map3);
 
-  print(map1.length);
-  print(map1.isEmpty);
-  print(map1.isNotEmpty);
+ map3.remove('shubham');
+ print(map3);
 
 }
