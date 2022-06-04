@@ -18,6 +18,10 @@ void main()
    });
    print('map1 keys : ${map1.keys}');
    print('map value: ${map1.values}');
-  
-  
+   Map<String,int>map3={
+    'Subhojeet':5,'shubham':6
+  };
+  map1.addEntries(map3.entries);
+  print(map1);
+
 }
