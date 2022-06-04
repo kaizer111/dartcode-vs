@@ -23,5 +23,7 @@ void main()
   };
   map1.addEntries(map3.entries);
   print(map1);
+  map3.putIfAbsent('bishwajeet', () => 7);
+  print(map3);
 
 }
