@@ -28,5 +28,7 @@ void main()
 
  map3.remove('shubham');
  print(map3);
+ map2.clear();
+ print(map2);
 
 }
