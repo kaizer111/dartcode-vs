@@ -28,12 +28,15 @@ print(stringList);
 stringList.add('shreya');
 stringList.add('suman');
 print(stringList.any((element) => element.contains('vishal')));
+// startswith
 List<String>sublist =stringList.where((element) => element.startsWith('p')).toList();
 print(sublist);
+// contains
 sublist =stringList.where((element) => element.contains('ub')).toList();
 print(sublist);
 sublist =stringList.where((element) => element.contains('al')).toList();
 print(sublist);
+// sorting the array
 stringList.sort((a, b) => a.length.compareTo(b.length),);
 print(stringList);
 }
