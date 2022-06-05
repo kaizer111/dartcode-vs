@@ -27,11 +27,13 @@ print(stringList);
   print(stringList.length);
 stringList.add('shreya');
 stringList.add('suman');
-stringList.add('shreya');
+print(stringList.any((element) => element.contains('vishal')));
 List<String>sublist =stringList.where((element) => element.startsWith('p')).toList();
 print(sublist);
 sublist =stringList.where((element) => element.contains('ub')).toList();
 print(sublist);
 sublist =stringList.where((element) => element.contains('al')).toList();
 print(sublist);
+stringList.sort((a, b) => a.length.compareTo(b.length),);
+print(stringList);
 }
