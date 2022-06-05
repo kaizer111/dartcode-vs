@@ -21,6 +21,8 @@ print(stringList);
   print(stringList);
 
   // 3. concatenate two lists of same type
-
+stringList.addAll(['ananya']);
+print(stringList);
   // 4. print size of list
+  print(stringList.length);
 }
