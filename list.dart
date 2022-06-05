@@ -1,3 +1,5 @@
+
+
 void main() {
   List<String> stringList = [];
   List<int> integerList = [];
@@ -7,7 +9,12 @@ void main() {
 
   // 1. insert elements in list using
   // i.  add()
+  stringList.add('vishal');
+  stringList.add('ananay');
+  print(stringList);
   // ii. insert()
+stringList.insert(1,'subhojeet');
+print(stringList);
 
   // 2. remove element using the remove methods
 
