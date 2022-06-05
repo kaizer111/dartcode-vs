@@ -17,6 +17,8 @@ stringList.insert(1,'subhojeet');
 print(stringList);
 
   // 2. remove element using the remove methods
+  stringList.remove('ananay');
+  print(stringList);
 
   // 3. concatenate two lists of same type
 
