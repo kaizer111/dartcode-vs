@@ -25,4 +25,7 @@ stringList.addAll(['ananya']);
 print(stringList);
   // 4. print size of list
   print(stringList.length);
+print(stringList.contains('vishal'));
+print(stringList.indexOf('vishal'));
+print(stringList.indexOf('shubham'));
 }
