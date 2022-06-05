@@ -25,7 +25,13 @@ stringList.addAll(['ananya']);
 print(stringList);
   // 4. print size of list
   print(stringList.length);
-print(stringList.contains('vishal'));
-print(stringList.indexOf('vishal'));
-print(stringList.indexOf('shubham'));
+stringList.add('shreya');
+stringList.add('suman');
+stringList.add('shreya');
+List<String>sublist =stringList.where((element) => element.startsWith('p')).toList();
+print(sublist);
+sublist =stringList.where((element) => element.contains('ub')).toList();
+print(sublist);
+sublist =stringList.where((element) => element.contains('al')).toList();
+print(sublist);
 }
